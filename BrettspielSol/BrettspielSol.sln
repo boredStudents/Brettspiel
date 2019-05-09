@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLib", "GameLib\GameLib.csproj", "{B6A1DF94-8537-4EF1-8CCA-7EE1BEDAA0CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrettspielTestConsole", "BrettspielTestConsole\BrettspielTestConsole.csproj", "{1FDFF8EA-0149-4DCE-A279-FAB82D3C9070}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B6A1DF94-8537-4EF1-8CCA-7EE1BEDAA0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6A1DF94-8537-4EF1-8CCA-7EE1BEDAA0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6A1DF94-8537-4EF1-8CCA-7EE1BEDAA0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FDFF8EA-0149-4DCE-A279-FAB82D3C9070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FDFF8EA-0149-4DCE-A279-FAB82D3C9070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FDFF8EA-0149-4DCE-A279-FAB82D3C9070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FDFF8EA-0149-4DCE-A279-FAB82D3C9070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,17 +4,18 @@ namespace GameLib
 {
     public class Player
     {
-        public static int IDCounter = 0;
+        public Guid ID { get; private set; }
+        public string Name { get; private set; }
+        public string BirthDate { get; private set; }
 
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public string BirthDate { get; set; }
+        public Tile CurrentPos { get; set; }
 
-        public Player(int iD, string name, string birthDate)
+        public Player(string name, string birthDate, Tile CurrentPos)
         {
-            this.ID = iD;
+            this.ID = Guid.NewGuid();
             this.Name = name;
             this.BirthDate = birthDate;
+            this.CurrentPos = CurrentPos;
         }
 
         public override string ToString()
